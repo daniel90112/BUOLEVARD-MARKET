@@ -1,0 +1,147 @@
+@media(max-width:1200px){
+    .main__pro{
+        max-width: 960px;
+    } 
+    .main__keys{
+        max-width: 960px;
+    }
+    .main__airpods{
+        max-width: 960px;
+    }
+    .main__cards{
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 541px;
+        row-gap: 30px;
+    }
+}
+@media(max-width:992px){
+    .header__btn{
+        padding: 6px 7px;
+    }
+    .header__desc{
+        font-size: 50px;
+    }
+    .header__text{
+        font-size: 10px;
+    }
+    .main__pro{
+        max-width: 720px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        
+    }
+    .main__img__pro{
+        max-width: 720px;
+        flex-direction: column;
+    }
+    
+    
+    .main__keys{
+        max-width: 720px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+    }
+    .main__keys-hear{
+        height: 300px;
+        object-fit: contain;
+    }
+    
+
+    .main__airpods{
+        max-width: 720px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+    }
+    .main__airpods-img{
+        height: 300px;
+        object-fit: contain;
+    }
+}
+@media(max-width:768px){
+    .nav{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .header__a{
+        font-size: 15px;
+    }
+    .header__link{
+        margin-bottom: 20px;
+    }
+    .header__background{
+        height: 500px;
+    } 
+    .footer__logo{
+        flex-direction: column;
+        padding: 30px 0px;
+        row-gap: 20px;
+    }
+    
+}
+@media(max-width:576px){
+    .header__logo{
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+   .header__background{
+        height: 350px;
+    } 
+    .header__logo{
+        row-gap: 5px;
+    }
+    .nav{
+        row-gap: 5px;
+    }
+    .header__desc{
+        font-size: 25px;
+    }
+    .header__btn{
+        padding: 0px 5px 0px 0px;
+    }
+    .main__pro:hover {
+        scale: 1.1;
+    }
+    .main__text-pro{
+        font-size: 17px;
+    }
+    .main__img__pro{
+        height: 150px;
+    }
+    
+    
+    .main__keys:hover{
+        scale: 1.1;
+    }
+    .main__keys-text{
+        font-size: 17px;
+    }
+    .main__keys-hear{
+        height: 200px;
+    }
+    
+    
+    
+    .main__airpods:hover{
+        scale: 1.1;
+    }
+    .main__airpods-text{
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .main__airpods-img{
+        height: 220px;
+    }
+    
+    
+    .main__cards{
+        flex-direction: column;
+    }
+}
